@@ -1,0 +1,27 @@
+{
+  "name": "disk-usage",
+  "version": "0.2.1",
+  "description": "Get disk usage info in pure JS via OS built-in tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/test-*.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ostrovski/node-disk-usage"
+  },
+  "keywords": ["diskusage", "WMIC", "df", "disk", "usage"],
+  "author": {
+    "name": "Ivan Velichko",
+    "email": "iximiuz@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/Ostrovski/node-disk-usage/issues",
+  "homepage": "https://github.com/Ostrovski/node-disk-usage",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
