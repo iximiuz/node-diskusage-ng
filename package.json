@@ -1,6 +1,6 @@
 {
   "name": "diskusage-ng",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Get disk usage info in pure JS via OS built-in tools",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,13 @@
     "type": "git",
     "url": "https://github.com/Ostrovski/node-diskusage-ng"
   },
-  "keywords": ["diskusage", "WMIC", "df", "disk", "usage"],
+  "keywords": [
+    "diskusage",
+    "WMIC",
+    "df",
+    "disk",
+    "usage"
+  ],
   "author": {
     "name": "Ivan Velichko",
     "email": "iximiuz@gmail.com"
