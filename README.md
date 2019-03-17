@@ -1,6 +1,6 @@
 # diskusage-ng - get disk usage info in pure JavaScript and without any dependencies
 
-[![Build Status](https://travis-ci.org/Ostrovski/node-diskusage-ng.svg?branch=master)](https://travis-ci.org/Ostrovski/node-diskusage-ng)
+[![Build Status](https://travis-ci.org/iximiuz/node-diskusage-ng.svg?branch=master)](https://travis-ci.org/iximiuz/node-diskusage-ng)
 
 Supported operating systems:
  - Windows (via WMIC)
