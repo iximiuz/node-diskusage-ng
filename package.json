@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ostrovski/node-diskusage-ng"
+    "url": "https://github.com/iximiuz/node-diskusage-ng"
   },
   "keywords": [
     "diskusage",
@@ -26,8 +26,8 @@
     "email": "iximiuz@gmail.com"
   },
   "license": "MIT",
-  "bugs": "https://github.com/Ostrovski/node-diskusage-ng/issues",
-  "homepage": "https://github.com/Ostrovski/node-diskusage-ng",
+  "bugs": "https://github.com/iximiuz/node-diskusage-ng/issues",
+  "homepage": "https://github.com/iximiuz/node-diskusage-ng",
   "engines": {
     "node": ">=0.10.0"
   }
