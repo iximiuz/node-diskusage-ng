@@ -3,6 +3,7 @@
   "version": "0.2.4",
   "description": "Get disk usage info in pure JS via OS built-in tools",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "tape tests/**/test-*.js"
   },
