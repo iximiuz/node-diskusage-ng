@@ -20,11 +20,6 @@ diskusage('/home/me', function(err, usage) {
 
 ```
 
-## Posix notes
-Filenames with `"` inside will be rejected with an explicit error.
-Bash substitution works, so for example `diskusage('$HOME', ...)` will show a diskusage for the user's home dir.
-**It means that passing a raw user input to `diskusage()` can lead to arbitrary code execution.**
-
 ## Commands
 ```
 npm run test
