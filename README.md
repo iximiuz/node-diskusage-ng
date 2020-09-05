@@ -24,3 +24,11 @@ diskusage('/home/me', function(err, usage) {
 ```
 npm run test
 ```
+
+## Credits
+
+- Thanks to @xiaoxiangmoe for providing TypeScript type definitions.
+
+- Thanks to @Congelli501 for replacing `child_process.exec` with `child_process.execFile`
+  on POSIX systems making the code much more secure.
+
