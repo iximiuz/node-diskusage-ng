@@ -29,6 +29,6 @@
   "bugs": "https://github.com/iximiuz/node-diskusage-ng/issues",
   "homepage": "https://github.com/iximiuz/node-diskusage-ng",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.11.0"
   }
 }

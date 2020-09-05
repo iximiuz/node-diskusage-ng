@@ -4,7 +4,6 @@ os:
   - windows
 language: node_js
 node_js:
-  - "0.10.0"
   - "6.11.0"
   - "8.17.0"
   - "10.22.0"
