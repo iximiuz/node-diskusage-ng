@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "tape tests/**/test-*.js"
+    "test": "tape tests/index.js"
   },
   "devDependencies": {
     "tape": "^4.6.3"

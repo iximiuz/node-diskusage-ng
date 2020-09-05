@@ -67,14 +67,14 @@ test('(POSIX) it not parses if output is mallformed (III)', function(assert) {
 
 test('(POSIX) it does not substitute shell variables', function(assert) {
     diskusage.diskusage('$HOME', function(err) {
-        assert.true(err.message === 'Command failed: df -k $HOME\ndf: $HOME: No such file or directory\n');
+        assert.true(err.message.startsWith('Command failed: df -k $HOME'));
         assert.end();
     });
 });
 
 test('(POSIX) it does not substitute shell commands', function(assert) {
     diskusage.diskusage('$(echo "foobar")', function(err) {
-        assert.true(err.message === 'Command failed: df -k $(echo "foobar")\ndf: $(echo "foobar"): No such file or directory\n');
+        assert.true(err.message.startsWith('Command failed: df -k $(echo "foobar")'));
         assert.end();
     });
 });
