@@ -33,6 +33,16 @@ test('(POSIX) it parses non-ascii output', function(assert) {
     assert.end();
 });
 
+test('(POSIX) it parses long output', function(assert) {
+   var output = 'Filesystem           1024-blocks    Used Available Capacity Mounted on\n' +
+                '10.100.1.1:/mnt/hdd2/k8s/test-pvc-2dab28c8-d3b1-432d-bd9a-78445438618a                                                                  3844640768 1929825280 1719448576  53% /\n';
+   var parsed = diskusage.parse(output);
+   assert.equals(parsed.total, 1024*3844640768);
+   assert.equals(parsed.used, 1024*1929825280);
+   assert.equals(parsed.available, 1024*1719448576);
+   assert.end();
+});
+
 test('(POSIX) it not parses if output is mallformed (I)', function(assert) {
     var output = 'Filesystem 1024-blocks     Used Available Capacity  iused   ifree %iused  Mounted on\n';
     try {
