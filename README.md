@@ -32,3 +32,4 @@ npm run test
 - Thanks to @Congelli501 for replacing `child_process.exec` with `child_process.execFile`
   on POSIX systems making the code much more secure.
 
+- Thanks to @mintaka-orionis for fixing long paths issue on POSIX systems.
