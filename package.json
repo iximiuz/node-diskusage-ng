@@ -1,6 +1,6 @@
 {
   "name": "diskusage-ng",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get disk usage info in pure JS via OS built-in tools",
   "main": "index.js",
   "types": "index.d.ts",
