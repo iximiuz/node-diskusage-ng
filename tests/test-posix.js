@@ -43,6 +43,16 @@ test('(POSIX) it parses long output', function(assert) {
    assert.end();
 });
 
+test('(POSIX) it parses filesystems with spaces', function(assert) {
+  var output= 'Filesystem                      1024-blocks        Used  Available Capacity Mounted on\n' +
+              '//example.com/Some Storage/Test 17179803648 15080666092 2099137556      88% /mnt/test';
+   var parsed = diskusage.parse(output);
+   assert.equals(parsed.total, 1024*17179803648);
+   assert.equals(parsed.used, 1024*15080666092);
+   assert.equals(parsed.available, 1024*2099137556);
+   assert.end();
+});
+
 test('(POSIX) it not parses if output is mallformed (I)', function(assert) {
     var output = 'Filesystem 1024-blocks     Used Available Capacity  iused   ifree %iused  Mounted on\n';
     try {
