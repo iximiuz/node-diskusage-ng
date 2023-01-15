@@ -1,6 +1,6 @@
 {
   "name": "diskusage-ng",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get disk usage info in pure JS via OS built-in tools",
   "main": "index.js",
   "types": "index.d.ts",
@@ -29,6 +29,6 @@
   "bugs": "https://github.com/iximiuz/node-diskusage-ng/issues",
   "homepage": "https://github.com/iximiuz/node-diskusage-ng",
   "engines": {
-    "node": ">=6.11.0"
+    "node": ">=8.8.0"
   }
 }
